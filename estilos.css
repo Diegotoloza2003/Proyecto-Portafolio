@@ -1,0 +1,203 @@
+body{
+    background-image: #f7f7f7;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.15;
+}
+hr {
+    background-image: linear-gradient(to right,transparent,var(--primary),transparent);
+    border: 0;
+    border-top-color: initial;
+    border-top-style: initial;
+    border-top-width: 0px;
+    border-right-color: initial;
+    border-right-style: initial;
+    border-right-width: 0px;
+    border-bottom-color: initial;
+    border-bottom-style: initial;
+    border-bottom-width: 0px;
+    border-left-color: initial;
+    border-left-style: initial;
+    border-left-width: 0px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    height: 0.1rem;
+    max-width: 100%;
+}
+:root {
+    --primary: #ffffff;
+    --primary-dark: #00b0c7;
+    --white: #f5f9fa;
+    --white2: #ebf3f5;
+    --gray: #e1e4e5;
+    --gray2: #c0c6c9;
+    --gray3: #4b4c4d;
+    --black: #323333;
+    --black2: #000000;
+}
+header{
+  background: url(img/reygif.com[26tn33aiTi1jkl6H6].gif);
+  background-size: cover;  
+  height: 630px;
+  overflow: hidden;
+}
+
+#Portafolio button {
+    border: none;
+    box-shadow: 0 0 10px var(--gray2);
+    cursor: zoom-in;
+    display: block;
+    margin: 1rem auto;
+    max-width: 400px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+}
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+}
+
+button {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+#Habilidades>div {
+    grid-gap: 1rem;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+div {
+    display: block;
+}
+nav {
+    display: block;
+}
+#social-media a {
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+h1, h3,h6 {
+    text-transform: uppercase;
+}
+h2, h3, h4 {
+    letter-spacing: .3rem;
+}
+h3 {
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+footer{
+    background: linear-gradient(var(--black),var(--black2));
+    background-image: ;
+    background-position-x: ;
+    background-position-y: ;
+    background-size: ;
+    background-repeat-x: ;
+    background-repeat-y: ;
+    background-attachment: ;
+    background-origin: ;
+    background-clip: ;
+    background-color: ;
+    padding: 2rem 0;
+}
+footer, header, section.even {
+    color: var(--white);
+}
+footer {
+    display: block;
+}
+.circle {
+    border-radius: 50%;
+}
+img {
+    border-style: none;
+}
+#Experiencia>div{
+    grid-gap: 1rem;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+h1{
+ color: #f10b99;
+}
